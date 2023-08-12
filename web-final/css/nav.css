@@ -1,0 +1,24 @@
+/*start navigation on all pages */
+.topnav {
+    background-color: #f89999;
+    padding: 20px;
+    margin: 20px;
+    
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+ #tittle{
+  width: 100%;
+  background-color: rgb(9, 9, 9);
+  padding: 20px;
+ }

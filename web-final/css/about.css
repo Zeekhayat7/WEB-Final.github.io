@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation menu */
+.nav-menu {
+    position: fixed;
+    top: 500px;
+    left: 20px;
+    z-index: 1000;
+}
+.nav-menu ul {
+  list-style-type: none;
+}
+
+.nav-menu li {
+  margin-bottom: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #f13131;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+/* Style for the article */
+.about-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto; /* Enable scrolling for the article content */
+    background-color: rgba(59, 55, 55, 0.9); /* Set the background color for the article */
+}
+
+/* Style for the container that holds image and text */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+/* Style for the circular image */
+.about-image {
+    text-align: center;
+    margin: 20px;
+}
+
+.about-image img {
+    width: 70%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.about-image img:hover {
+    transform: scale(1.1);
+}
+
+/* Style for the "Read Me" link */
+#read-more {
+    display: block;
+    color: #007bff; /* Change to your desired link color */
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Style for the hidden paragraph */
+#about-paragraph {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: bisque;
+}
+
+.resources {
+    width: 300px;
+    border: 15px solid rgb(5, 5, 5);
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Style for the text box */
+.about-text {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: bisque;
+}
+
+.honesty-statement {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #f13131;
+    border-radius: 5px;
+    background-color: rgba(241, 49, 49, 0.1);
+  }
+  
+  .honesty-statement h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .honesty-statement p {
+    font-size: 0.9rem;
+  }
+  
