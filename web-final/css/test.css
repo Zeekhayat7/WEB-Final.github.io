@@ -33,6 +33,11 @@ h1{
 .nav-menu a {
     text-decoration: none;
     color: white;
+      transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: rgb(5, 4, 4); /* Change the color on hover */
 }
 
 /*****/
